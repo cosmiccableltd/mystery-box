@@ -1,0 +1,73 @@
+Partlist
+
+Exported from ver2.brd at 3/28/17 8:25 PM
+
+EAGLE Version 6.6.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value              Package      Library                 Position (mil)        Orientation
+
+C1       100n 25v           C0805K       rcl                     (918.92495 1325.91216) R0
+C4       100n 25v           C0805K       rcl                     (1123.10925 1524.35015) R0
+C7       100n 25v           C0805K       rcl                     (783.97183 578.81041) R0
+
+C2       1u 50V             C0805K       rcl                     (968.92495 1525.91216) R0
+
+C3       2u2 50V            C1206K       rcl                     (718.92495 1475.91216) R270
+C9       2u2 50V            C1206K       rcl                     (2354.87709 852.59252) R0
+
+C5       10u 16V            C0805K       rcl                     (1418.92495 1075.91216) R180
+
+C6       1u 630V DC         C275-205X316 rcl                     (3425.6122 1598.19808) R270
+
+C10      470u/25V           E3,5-8       rcl                     (1231.07333 707.17938) R180          REICHELT RAD FR 1.000/16
+
+D1       MBRS360            SMC          diode                   (1382.47478 1352.99139) R270         REICHELT MBRS 360 SMD
+
+D2       BZX84CSMD 16V      TO236        diode                   (1924.0689 945.49163) R180
+
+D3       BZX84CSMD          TO236        diode                   (3235.41228 900.07616) R90
+D4       BZX84CSMD 20V      TO236        diode                   (3448.09055 902.69254) R270
+
+D5       1N4004             DO41-10      diode                   (3357.73216 735.03543) R180          REICHELT 1N 4007
+D6       1N4004             DO41-10      diode                   (3356.86516 611.26833) R0
+D7       1N4004             DO41-10      diode                   (3357.72527 493.71395) R180
+D8       1N4007             DO41-10      diode                   (3356.79134 353.74508) R0
+
+J1                          215877-4     con-amp                 (147.49422 1512.76956) R270          REICHELT MEBP 8-8S
+J2                          215877-4     con-amp                 (147.49422 862.76956) R270
+J3                          215876-6     con-amp                 (4264.30106 1402.72625) R90          REICHELT MEBP 6-4S
+J4                          215876-6     con-amp                 (4268.68233 850.98068) R90
+
+L1       PIS4728 10u        PIS4728      pis4728                 (1818.92495 1375.91216) R0
+
+LED1                        LED5MM       led                     (852.84584 153.52793) R0             REICHELT LED 5-39000 GN
+
+OK1      4N27M              DIL06        optocoupler             (2731.15527 1140.78962) R90          REICHELT 4N27
+PAD1                        3,17/1,3     wirepad                 (2556.01686 146.25234) R0
+PAD2                        3,17/1,3     wirepad                 (2395.2201 146.67249) R0
+
+Q1       BSS84              SOT23        transistor-small-signal (2246.26981 1145.81348) R9           REICHELT BSS 84P SMD
+
+Q2       PMV20EN            SOT23        pmv20en                 (2117.93406 1034.52621) R180
+Q3       PMV20EN            SOT23        pmv20en                 (782.48376 882.83108) R0
+Q4       PMV20EN            SOT23        pmv20en                 (1553.82234 947.54811) R90
+
+R1       267k               R0603        rcl                     (818.92495 1425.91216) R90
+R2       R05 RL12T.05JCT-ND R0805        rcl                     (1217.36307 1352.48228) R90
+R3       37k4               R0603        rcl                     (1068.92495 1225.91216) R180
+R4       9k76               R0603        rcl                     (1068.92495 1325.91216) R0
+R5       1M                 R0805        rcl                     (3881.24779 1750.36602) R270
+R6       2k2                R1206        rcl                     (3619.24397 902.47527) R0
+R7       1M                 R0805        rcl                     (2389.06176 1028.62377) R0
+R8       100k               R0805        rcl                     (2379.37758 1148.46752) R90
+R9       1k                 R1206        rcl                     (2202.75197 1294.39062) R270
+R10      430                R1206        rcl                     (944.13595 701.07505) R90
+R11      100                R0603        rcl                     (677.84252 700.66708) R90
+R13      1k                 R0805        rcl                     (2239.16265 1002.69968) R90
+R14      10k                R0805        rcl                     (1777.88423 925.61368) R90
+
+U$1      LM25011            HVSSOP-10    lm25011                 (1018.92495 1425.91216) R270
+U$2      LM5050             SOT-23-6     lm5050                  (782.45042 706.9562)  R0
+X1       AKL382-8           ALK382-8     akl382                  (1660.62992 -157.48031) MR0      REICHELT AKL 382 08
