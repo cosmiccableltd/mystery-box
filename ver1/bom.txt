@@ -1,0 +1,45 @@
+Reichelt:
+
+Count   Art-NO			Comment		Parts
+! 3	X7R-G0805 100N		50V rated	C1,C4,C7
+! 1	X7R-G0805 1,0/50	50V rated	C2
+! 1	X7R-G1206 2,2/50	50V rated	C3
+! 1	X5R-G0805 10/16		16V rated	C5
+! 1	MKP4-630 1,0µ		630V rated	C6
+! 1	TAJ 7343 47/25		25V Tantal	C9
+! 1	RAD FC 470/25		25V Elko	C10
+! 1	MBRS 360 SMD		Shottky Diode	D1
+! 4	1N 4007			Rect Diode	D5-D8
+! 2	MEBP 8-8S		RJ45 Buchse	J1,J2
+! 2	MEBP 6-4S		RJ11 Buchse	J3,J4
+! 1	L-PIS4728 10µ		Spule		L1
+! 1	LED 5-39000 GN		LED Gruen	LED1
+! 1	4N 27			Optokoppler	OK1
+! 1	BSS 84P SMD		PMOS		Q1
+! 1	RND 1206 1 2,2K		Widerstand	R6
+! 1	RND 1206 1 1,0K		Widerstand	R9
+! 1	RND 1206 1 470		Widerstand	R10
+! 2	RND 0805 1 1M		Widerstand	R5,R7
+! 1	RND 0805 1 100K		Widerstand	R8
+! 1	RND 0805 1 1,0K		Widerstand	R13
+! 1	RND 0805 1 10k		Widerstand	R14
+! 1	RND 0603 1 100		Widerstand	R11
+! 1	AKL 382-08		Wannenbuchse	X1
+! 1	AKL 369-08		Wannenstecker	X1
+! 1	LM 5050MK-1		Diode Ctrl	U$2
+! 1	LUM XNES 250		Hohlstecker
+! 1	LA 210-5		Zwillingslitze
+! 1	1591CFLBK		Gehaeuse
+
+Digikey:
+! 1	LM25011 U$1
+! 2       BZX84CSMD 20V D3,D4 BZX84C20LT1GOSCT-ND
+! 1	  BZX84CSMD 16V D2    BZX84C16FSCT-ND
+! 3       PMV20EN Q2,Q3,Q4
+! 1       267k               R0603        R1
+! 1       37k4               R0603        R3
+! 1       9k76               R0603        R4
+! 1       R05 RL12T.05JCT-ND R0805        R2
+
++4 Hohlstecker, Wannenstecker, Gehaeuse
+-2 PAD
