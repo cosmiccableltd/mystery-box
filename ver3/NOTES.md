@@ -19,3 +19,7 @@ DMX 				2x GPIO
 Geschaltete Ausgänge 		3x GPIO
 Neopixel			2x GPIO
 
+
+
+rj45
+sicherung + ausgänge + spannungsteiler
