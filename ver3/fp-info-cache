@@ -1,4 +1,4 @@
-1741312792302
+6975546838315
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99351,9 +99351,30 @@ Varistor VF
 2
 2
 eigene_footprints
+RJ45_X2_CC_Aliexpress
+Shielded, 2 LED, 2 Ports, http://www.amphenolinfocom.eu/NavData/Drawings/RJHSE-538X-02-REVC.pdf
+RJ45 8p8c dual ethernet cat5
+0
+19
+17
+eigene_footprints
+Untitled
+
+
+0
+0
+0
+eigene_footprints
 level_shifter
 
 
 0
 12
 11
+eigene_footprints
+max845 modul
+
+
+0
+8
+8
