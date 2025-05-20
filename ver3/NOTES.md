@@ -23,3 +23,7 @@ Neopixel			2x GPIO
 
 rj45
 sicherung + ausgänge + spannungsteiler
+
+
+länge 4.9mm
+breite 6mm
