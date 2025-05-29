@@ -27,3 +27,7 @@ sicherung + ausgänge + spannungsteiler
 
 länge 4.9mm
 breite 6mm
+
+
+https://learn.adafruit.com/circuitpython-with-esp32-quick-start/command-line-esptool
+https://circuitpython.org/board/waveshare_esp32_s3_zero/
