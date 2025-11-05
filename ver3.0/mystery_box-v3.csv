@@ -1,0 +1,13 @@
+Reference,Value,Footprint,Datasheet,Qty,Qty +ACo- 5
++ACI-12v+AF8-input+AF8-terminal1,J8,J9,J10,J11,J12,J13,J14,J15,J16,J17,neopixel+AF8-out1,neopixel+AF8-pwr1,switched+AF8-output+AF8-01,switched+AF8-output+AF8-02,switched+AF8-output+AF8-03+ACI-,Screw+AF8-Terminal+AF8-01x02,TerminalBlock:TerminalBlock+AF8-MaiXu+AF8-MX126+AC0-5.0+AC0-02P+AF8-1x02+AF8-P5.00mm,+AH4-,16,80
++ACI-D1,D2,D3+ACI-,D,Diode+AF8-THT:D+AF8-DO+AC0-15+AF8-P10.16mm+AF8-Horizontal,+AH4-,3,15
+dmx+AF8-out1,DMX Out,TerminalBlock:TerminalBlock+AF8-MaiXu+AF8-MX126+AC0-5.0+AC0-03P+AF8-1x03+AF8-P5.00mm,+AH4-,1,5
+ESP32+AF8-S3,+AH4-,eigene+AF8-footprints:ESP32+AC0-S3+AC0-Zero,,1,5
++ACI-J1,J2,J3,J4+ACI-,Conn+AF8-01x02+AF8-Pin,Connector+AF8-PinHeader+AF8-1.00mm:PinHeader+AF8-1x02+AF8-P1.00mm+AF8-Vertical,+AH4-,4,20
+J18,Barrel+AF8-Jack+AF8-MountingPin,eigene+AF8-footprints:CUI+AF8-PJ+AC0-050BH,+AH4-,1,5
+J20,rj45+AC0-CC+AC0-X2+AC0-Aliexpress,eigene+AF8-footprints:RJ45+AF8-X2+AF8-CC+AF8-Aliexpress,+AH4-,1,5
++ACI-Q1,Q2,Q3+ACI-,IRLZ44N,Package+AF8-TO+AF8-SOT+AF8-THT:TO+AC0-220+AC0-3+AF8-Vertical,http://www.irf.com/product+AC0-info/datasheets/data/irlz44n.pdf,3,15
++ACI-R1,R2,R3+ACI-,R,Resistor+AF8-THT:R+AF8-Axial+AF8-DIN0207+AF8-L6.3mm+AF8-D2.5mm+AF8-P10.16mm+AF8-Horizontal,+AH4-,3,15
+U1,+AH4-,eigene+AF8-footprints:level+AF8-shifter,,1,5
+U2,MAX485E,eigene+AF8-footprints:max845 modul,https://datasheets.maximintegrated.com/en/ds/MAX1487E+AC0-MAX491E.pdf,1,5
+U3,+AH4-,Package+AF8-SO:SOIC+AC0-8+AF8-3.9x4.9mm+AF8-P1.27mm,,1,5
