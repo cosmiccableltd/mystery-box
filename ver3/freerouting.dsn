@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "9.0.2")
+    (host_version "9.0.6")
   )
   (resolution um 10)
   (unit um)
@@ -28,8 +28,8 @@
             88500 -30500))
     (plane GND (polygon B.Cu 0  88500 -30500  88500 -130500  224000 -129000  224500 -30500
             88500 -30500))
-    (keepout "" (polygon F.Cu 0  153000 -87000  153000 -97500  208000 -97500  208000 -87000
-            153000 -87000))
+    (keepout "" (polygon F.Cu 0  153000 -98000  153000 -86000  208500 -86000  208500 -98000
+            153000 -98000))
     (via "Via[0-1]_600:300_um" "Via[0-1]_1000:800_um")
     (rule
       (width 200)
@@ -75,6 +75,9 @@ GND  12V" 93000.000000 -94500.000000 front 90.000000 (PN Screw_Terminal_01x02))
     )
     (component "eigene_footprints:ESP32-S3-Zero"
       (place ESP32_S3 154960.000000 -81820.000000 front 0.000000 (PN ~))
+    )
+    (component LOGO
+      (place G*** 183500.000000 -112500.000000 front 0.000000 (PN LOGO))
     )
     (component "eigene_footprints:max845 modul"
       (place U2 105800.000000 -115500.000000 front 0.000000 (PN MAX485E))
@@ -410,6 +413,8 @@ GND  12V" 93000.000000 -94500.000000 front 90.000000 (PN Screw_Terminal_01x02))
       (pin "RoundRect[A][-600.000000,0.000000]Pad_2600.000000x1600.200000_401.572000_um_0.000000_0" GND 2540 20320)
       (pin RoundRect[A][600.000000,0.000000]Pad_2600.000000x1600.000000_401.522000_um_0.000000_0 RX 17780 20320)
       (pin RoundRect[A][600.000000,0.000000]Pad_2600.000000x1600.000000_401.522000_um_0.000000_0 TX 17780 22860)
+    )
+    (image LOGO
     )
     (image "eigene_footprints:max845 modul"
       (outline (path signal 100  -5000 3000  43000 3000  43000 -11000  -5000 -11000))
@@ -1056,6 +1061,7 @@ GND  12V"-1 dmx_out1-1 J10-1 Q3-3 J20-15 J20-16 J15-1 ESP32_S3-GND
     (wire (path F.Cu 1800  128427 -34797.3  125578 -31947.5)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  116500 -75920  119102 -75920)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  186349 -75055  179904 -81500)(net "/SW 12V")(type route))
+    (wire (path F.Cu 1800  90199 -81301  93000 -78500)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  164500 -34935  161681 -32115.6)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  179904 -81500  124682 -81500)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  143360 -32075.5  140500 -34935)(net "/SW 12V")(type route))
@@ -1068,8 +1074,10 @@ GND  12V"-1 dmx_out1-1 J10-1 Q3-3 J20-15 J20-16 J15-1 ESP32_S3-GND
     (wire (path F.Cu 1800  104210 -34789.7  101381 -31960.2)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  124682 -81500  119102 -75920)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  149640 -32075.5  143360 -32075.5)(net "/SW 12V")(type route))
+    (wire (path F.Cu 1800  93000 -89500  90199 -86699)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  131230 -31994.7  128427 -34797.3)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  140500 -34935  137560 -31994.7)(net "/SW 12V")(type route))
+    (wire (path F.Cu 1800  90199 -86699  90199 -81301)(net "/SW 12V")(type route))
     (wire (path F.Cu 1800  107052 -31947.5  104210 -34789.7)(net "/SW 12V")(type route))
     (wire (path B.Cu 1800  116500 -46420  116500 -47720.8)(net "/SW 12V")(type route))
     (wire (path B.Cu 1800  119102 -63521.7  119102 -51623.4)(net "/SW 12V")(type route))

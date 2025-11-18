@@ -240,7 +240,40 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "missing_unit|2743200|533400|0fd19084-e727-4c7f-8a9e-45a4eac1ba03|00000000-0000-0000-0000-000000000000|/cbbaaa27-ed93-4129-abc1-94959947e6fe|/cbbaaa27-ed93-4129-abc1-94959947e6fe|",
+        ""
+      ],
+      [
+        "pin_to_pin|2222500|317500|2685c0e8-6224-459a-baf3-43e08445dce5|cde870a2-30fe-4276-9919-3909b3fdfde3|/cbbaaa27-ed93-4129-abc1-94959947e6fe|/cbbaaa27-ed93-4129-abc1-94959947e6fe|/cbbaaa27-ed93-4129-abc1-94959947e6fe",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1346200|1562100|021940f4-4ffd-44d2-9ee8-322a086dfe49|00000000-0000-0000-0000-000000000000|/cbbaaa27-ed93-4129-abc1-94959947e6fe|/cbbaaa27-ed93-4129-abc1-94959947e6fe|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1346200|1562100|517817d1-b6ae-4cf3-8fc0-f33e150982eb|00000000-0000-0000-0000-000000000000|/cbbaaa27-ed93-4129-abc1-94959947e6fe|/cbbaaa27-ed93-4129-abc1-94959947e6fe|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1346200|1562100|5d412daa-3763-465a-8f94-d0385bd52045|00000000-0000-0000-0000-000000000000|/cbbaaa27-ed93-4129-abc1-94959947e6fe|/cbbaaa27-ed93-4129-abc1-94959947e6fe|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1371600|571500|7188d598-2e95-48ca-81d4-5d302c47dfcc|00000000-0000-0000-0000-000000000000|/cbbaaa27-ed93-4129-abc1-94959947e6fe|/cbbaaa27-ed93-4129-abc1-94959947e6fe|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2641600|825500|a08d1d6e-da59-421f-b966-a78c8f9b8131|00000000-0000-0000-0000-000000000000|/cbbaaa27-ed93-4129-abc1-94959947e6fe|/cbbaaa27-ed93-4129-abc1-94959947e6fe|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|317500|1473200|b24ab138-7b96-4087-9ac3-6acd067388b1|00000000-0000-0000-0000-000000000000|/cbbaaa27-ed93-4129-abc1-94959947e6fe|/cbbaaa27-ed93-4129-abc1-94959947e6fe|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -442,7 +475,7 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "ignore",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
