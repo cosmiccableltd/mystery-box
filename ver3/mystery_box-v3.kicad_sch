@@ -5163,6 +5163,12 @@
 		(uuid "35bad129-82fc-42e3-bbdf-c29d038a46a8")
 	)
 	(junction
+		(at 264.16 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f441087-a99e-4838-be7a-6a6cc817f749")
+	)
+	(junction
 		(at 264.16 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5637,6 +5643,16 @@
 			(type default)
 		)
 		(uuid "1a68b08e-2276-48ed-b1a8-a8b2c1be97c7")
+	)
+	(wire
+		(pts
+			(xy 254 90.17) (xy 254 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8f5769-b3b9-4b76-a055-d6bf90949c91")
 	)
 	(wire
 		(pts
@@ -6140,7 +6156,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 82.55) (xy 264.16 91.44)
+			(xy 264.16 82.55) (xy 264.16 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6257,6 +6273,16 @@
 			(type default)
 		)
 		(uuid "55ad7d1d-e4c8-4b2f-83a1-315099012cd6")
+	)
+	(wire
+		(pts
+			(xy 251.46 90.17) (xy 254 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560793cf-55f4-4011-a4ed-96bd070ade85")
 	)
 	(wire
 		(pts
@@ -6790,6 +6816,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 87.63) (xy 264.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926c4f56-2c10-4b6d-8557-23c579f34d9f")
+	)
+	(wire
+		(pts
 			(xy 95.25 38.1) (xy 95.25 49.53)
 		)
 		(stroke
@@ -7117,6 +7153,16 @@
 			(type default)
 		)
 		(uuid "be09be58-a89a-492d-815e-ac33af12eedb")
+	)
+	(wire
+		(pts
+			(xy 251.46 87.63) (xy 264.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be93bc44-2f0a-4223-b2b3-5b6f74f35902")
 	)
 	(wire
 		(pts
@@ -10634,6 +10680,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 246.38 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55e48828-490a-4a73-b292-e47d19fe53e7")
+		(property "Reference" "PWR_12V_FAN"
+			(at 247.0151 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 245.7451 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 246.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 246.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54f89135-ae3e-45d4-af57-1074bd61ecd5")
+		)
+		(pin "1"
+			(uuid "37f70563-afae-4a15-859b-ef428e1f0c5d")
+		)
+		(instances
+			(project "mystery_box-v3"
+				(path "/cbbaaa27-ed93-4129-abc1-94959947e6fe"
+					(reference "PWR_12V_FAN")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "eigene:Screw_Terminal_01x02")
 		(at 227.33 138.43 0)
 		(unit 1)
@@ -13144,6 +13260,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 254 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94112afd-0d9e-47ab-b5c7-b3de764ff60c")
+		(property "Reference" "#PWR060"
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58058ec4-dcb9-489d-94b8-57a8de04c481")
+		)
+		(instances
+			(project "mystery_box-v3"
+				(path "/cbbaaa27-ed93-4129-abc1-94959947e6fe"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 106.68 177.8 0)
 		(unit 1)
@@ -15351,7 +15533,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e9eb1ff3-3f32-46a6-a5e2-65a4055001fd")
 		(property "Reference" "GREEN1"
 			(at 243.5226 77.47 90)

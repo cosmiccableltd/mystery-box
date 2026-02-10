@@ -1,4 +1,4 @@
-26575080025458874
+26576850779541673
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105230,6 +105230,13 @@ CUI_PJ-050BH
 0
 3
 3
+eigene_footprints
+Cosmic Phone
+
+
+0
+8
+8
 eigene_footprints
 ESP32-S3-Zero
 
