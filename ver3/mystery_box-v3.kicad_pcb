@@ -13508,7 +13508,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "SmartSwitch1"
-			(at -0.225 3.425 0)
+			(at -0.375 -3.8 0)
 			(layer "F.SilkS")
 			(uuid "4f11daa5-db77-4811-badc-7e3d9fdd1545")
 			(effects
@@ -13807,7 +13807,7 @@
 		(pad "4" smd roundrect
 			(at -2.5 3.02625)
 			(size 1.95 2.9475)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.25)
 			(net 4 "VCC 12V SW")
 			(pinfunction "OUT")
@@ -23266,6 +23266,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GPIO"
+		(at 161.4 34 0)
+		(layer "F.SilkS")
+		(uuid "3c5438be-8fa5-44ee-aff1-d3a166fc7f78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "2"
 		(at 165.3 39.3 0)
 		(layer "F.SilkS")
@@ -29980,6 +29992,46 @@
 				(xy 149.97923 30.6625) (xy 149.82881 31.025645) (xy 149.714707 31.401794) (xy 149.714704 31.401805)
 				(xy 149.638026 31.787297) (xy 149.5995 32.178471) (xy 147.5005 32.178471) (xy 147.5005 26.124471)
 				(xy 147.520185 26.057432) (xy 147.572989 26.011677) (xy 147.624499 26.000471)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Mask")
+		(uuid "e3262455-0e03-47fa-8f51-7b3b492fade0")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 1)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(smoothing fillet)
+			(radius 2)
+		)
+		(polygon
+			(pts
+				(xy 229.525 76.075) (xy 231.475 76.075) (xy 231.475 76.875) (xy 229.525 76.875)
+			)
+		)
+		(filled_polygon
+			(layer "F.Mask")
+			(island)
+			(pts
+				(xy 231.084641 76.076527) (xy 231.179206 76.091504) (xy 231.216104 76.103492) (xy 231.292616 76.142477)
+				(xy 231.324002 76.165281) (xy 231.384718 76.225997) (xy 231.407522 76.257383) (xy 231.446507 76.333895)
+				(xy 231.458495 76.370793) (xy 231.471927 76.455603) (xy 231.471927 76.494397) (xy 231.458495 76.579206)
+				(xy 231.446507 76.616104) (xy 231.407522 76.692616) (xy 231.384718 76.724002) (xy 231.324002 76.784718)
+				(xy 231.292616 76.807522) (xy 231.216104 76.846507) (xy 231.179207 76.858495) (xy 231.084642 76.873473)
+				(xy 231.065244 76.875) (xy 229.934756 76.875) (xy 229.915358 76.873473) (xy 229.820792 76.858495)
+				(xy 229.783895 76.846507) (xy 229.707383 76.807522) (xy 229.675997 76.784718) (xy 229.615281 76.724002)
+				(xy 229.592477 76.692616) (xy 229.553492 76.616104) (xy 229.541504 76.579206) (xy 229.528072 76.494397)
+				(xy 229.528072 76.455603) (xy 229.541504 76.370793) (xy 229.553492 76.333895) (xy 229.592477 76.257383)
+				(xy 229.615281 76.225997) (xy 229.675997 76.165281) (xy 229.707383 76.142477) (xy 229.783895 76.103492)
+				(xy 229.820793 76.091503) (xy 229.915359 76.076526) (xy 229.934756 76.075) (xy 231.065244 76.075)
 			)
 		)
 	)
