@@ -1,0 +1,127 @@
+(footprint "24V Boost Converter Neu"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "24V-Boost-Converter1"
+		(at -14.5 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a5d23352-3b58-48d4-a130-0dffebd3ea60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "M1"
+		(at 13 -8.25 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cbdcd519-fe24-4d65-bf1a-b5e121582f38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a7d72bf-f0bc-4df7-b227-d6850e5dcbcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ef94133-17ed-4525-8fb0-966482008263")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "mystery_box-v3.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -13 -8.25)
+		(end 13 8.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6c700931-4c80-414d-b7bc-919c35c0f658")
+	)
+	(fp_rect
+		(start 23 -16.5)
+		(end 24 -16.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8a8f9d17-3734-4a68-bbc6-6f3606d84b60")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c6e9658c-74b1-468c-8afb-2bd06da0b492")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 9.2 5.35)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8c59b9a-da9b-4aaa-91bf-c25f1f8ac2a0")
+	)
+	(pad "2" thru_hole circle
+		(at 9.2 -5.35)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "01e0691b-38ae-4c39-b9d8-70c6018c2d66")
+	)
+	(pad "3" thru_hole circle
+		(at -9.2 5.35)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d5089b7-d1ba-49ef-b923-b3e535008911")
+	)
+	(pad "4" thru_hole circle
+		(at -9.2 -5.35)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b45bdc72-8ae6-472f-9f0c-c8f4234c921f")
+	)
+	(embedded_fonts no)
+)

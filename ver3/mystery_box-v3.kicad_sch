@@ -3187,8 +3187,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "M"
-				(at 0 10.16 0)
+			(property "Reference" "24V-Boost-Converter1"
+				(at -2.032 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3197,8 +3197,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "M1"
+				(at -1.27 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3207,7 +3207,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "eigene_footprints:24V Boost Converter"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3281,42 +3281,6 @@
 					)
 				)
 				(pin power_in line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -8.89 -3.81 0)
 					(length 2.54)
 					(name "IN-"
@@ -3326,61 +3290,7 @@
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 -3.81 180)
-					(length 2.54)
-					(name "OUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "OUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "OUT+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3398,7 +3308,25 @@
 							)
 						)
 					)
-					(number "8"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14009,18 +13937,6 @@
 		)
 		(pin "1"
 			(uuid "6686c9b7-7eb1-4412-a004-87f77460de1f")
-		)
-		(pin "8"
-			(uuid "2d21f076-dc41-4481-b7a8-22f529c32e0c")
-		)
-		(pin "6"
-			(uuid "60c39ef7-d2cd-4d1c-b3c7-9ab9120760e9")
-		)
-		(pin "7"
-			(uuid "a0cc2132-e238-4eaa-bc3b-fc4f79a6c1ea")
-		)
-		(pin "5"
-			(uuid "cd188605-a500-4940-b812-8289a85ea778")
 		)
 		(instances
 			(project "mystery_box-v3"
