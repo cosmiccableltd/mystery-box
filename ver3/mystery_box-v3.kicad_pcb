@@ -6625,7 +6625,7 @@
 		(at 248 47 180)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
-		(property "Reference" "JMP_24V_12V_POE1"
+		(property "Reference" "JMP_POE1"
 			(at 2.5 2 90)
 			(layer "F.SilkS")
 			(uuid "7a61d183-2f82-4d88-8ecc-99ebfd299f1b")
@@ -23840,10 +23840,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "12V"
-		(at 200 85 0)
+	(gr_text "12V fused"
+		(at 200 74 0)
 		(layer "F.SilkS")
-		(uuid "ee2432ec-65a0-4546-8e12-0bc64149585e")
+		(uuid "9acbbe6b-34d7-482f-840c-a06f1f23d779")
 		(effects
 			(font
 				(size 1 1)
@@ -23852,10 +23852,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "12V fused"
-		(at 200.5 74.5 0)
+	(gr_text "12V"
+		(at 200 85 0)
 		(layer "F.SilkS")
-		(uuid "9acbbe6b-34d7-482f-840c-a06f1f23d779")
+		(uuid "ee2432ec-65a0-4546-8e12-0bc64149585e")
 		(effects
 			(font
 				(size 1 1)
@@ -23880,6 +23880,30 @@
 		(at 240.5 56 0)
 		(layer "F.SilkS")
 		(uuid "d798bc45-9123-4ff2-83a3-b25bd9f7200f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 246.5 50 0)
+		(layer "F.SilkS")
+		(uuid "0df2e7d6-35c1-4a20-8a17-d02dbfe9b061")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "24V"
+		(at 246.62 40 0)
+		(layer "F.SilkS")
+		(uuid "6f4b3294-dfa5-4be7-8a26-27bd763ba5d5")
 		(effects
 			(font
 				(size 1 1)
